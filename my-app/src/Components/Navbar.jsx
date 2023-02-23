@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Navbar(){
     return(
+        <nav>
         <ul>
             <li>
                 <Link to="/">Home</Link>
@@ -11,6 +13,7 @@ function Navbar(){
                 <Link to="/About">About</Link>
             </li>
         </ul>
+        </nav>
     );
 }
 
