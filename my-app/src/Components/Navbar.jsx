@@ -5,10 +5,10 @@ function Navbar(){
     return(
         <ul>
             <li>
-                <Link to="/pages/Home">Home</Link>
+                <Link to="/">Home</Link>
             </li>
             <li>
-                <Link to="/pages/About">About</Link>
+                <Link to="/About">About</Link>
             </li>
         </ul>
     );
