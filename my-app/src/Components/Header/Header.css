@@ -1,0 +1,89 @@
+.header {
+    width: 101%;
+    height: 90px;
+    margin: -10px;
+    background: #140F3F;
+  }
+.header img {
+    width: 195px;
+    height: 64px;
+    position: absolute;
+    left: 1.11%;
+    right: 85.35%;
+    top: 3%;
+    bottom: 10%;
+  }
+  .headertopbar {
+    width: 101%;
+    height: 40px;
+    margin: -10px;
+    background: #8224E3;
+  }
+  .headertopbar img {
+    margin: auto 5px;
+    float: left;
+  }
+  .head-text{
+    font-family: 'sans-serif';
+    font-size: 6px;
+    font-weight: "bold";
+    text-align: center;
+    padding: 0px;
+    color: #FFFFFF;
+  }
+  .button-all{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'sans-serif';
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    left:77%;
+    right: 0%;
+    top: 5%;
+    bottom: 0%;
+  }
+  .button-apparel {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'sans-serif';
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    left:82%;
+    right: 0%;
+    top: 5%;
+    bottom: 0%;
+  }
+  .button-accessories{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'sans-serif';
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    left:88%;
+    right: 0%;
+    top: 5%;
+    bottom: 0%;
+  }
+  .button-cart{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'sans-serif';
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    left:93%;
+    right: 0%;
+    top: 5%;
+    bottom: 0%;
+  }
