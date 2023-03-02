@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import logo from 'C:/Github/CPSC362-Group-Project/my-app/src/assets/logo';
-import audiowave from 'C:/Github/CPSC362-Group-Project/my-app/src/assets/audiowave.png'
+import logo from '../../assets/logo';
+import audiowave from '../../assets/audiowave.png'
 import {Link} from 'react-router-dom';
 
 const Header = () => (
