@@ -5,7 +5,8 @@
   
   .item-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   .catalog-container {
     display: flex;
@@ -16,9 +17,8 @@
   }
   
   .catalog-item-container {
-    width: 30%; /* Set the width of each item to fit 3 per row */
+    width: 25%; /* Set the width of each item to fit 3 per row */
     margin-bottom: 2em;
-    margin-right: 1em;
     margin-left: 1em;
   }
   
@@ -30,19 +30,6 @@
     font-size: 1.5em;
     text-align: center;
     margin-top: 1em;
-  }
-
-  /* Desktop View*/
-  @media screen and (min-width: 1080px) {
-    .item-list {
-        display: flex;
-        justify-content: space-between;
-      }
-      
-    .catalog-item-container {
-        margin-right: 7rem;
-    }
-
   }
 
    /* mobile View*/
