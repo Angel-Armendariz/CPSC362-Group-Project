@@ -1,0 +1,1086 @@
+.product-page-container{
+    position: relative;
+    width: 1246px;
+    height: 1045px;
+    left: 18px;
+    top: 137px;
+}
+
+.path-container{
+    position: absolute;
+    left: 0%;
+    right: 79.29%;
+    top: 0%;
+    bottom: 96.36%;
+}
+
+.path-home-container{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 0%;
+    right: 95.51%;
+    top: 0%;
+    bottom: 96.36%;
+    
+    border-radius: 8px;
+}
+
+.path-home{
+    width: 58px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #ADB5BD;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.path-category-container{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 4.74%;
+    right: 89.41%;
+    top: 0%;
+    bottom: 96.36%;    
+    
+    border-radius: 8px;
+}
+
+.path-category{
+    width: 74px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #ADB5BD;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.path-type-container{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 10.83%;
+    right: 85.23%;
+    top: 0%;
+    bottom: 96.36%;
+    
+    border-radius: 8px;
+}
+
+.path-type{
+    width: 77px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #ADB5BD;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.path-item-container{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 14.85%;
+    right: 79.29%;
+    top: 0%;
+    bottom: 96.36%;
+    
+    border-radius: 8px;
+}
+
+.path-item{
+    width: 95px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #ADB5BD;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.item-container{
+    position: absolute;
+    left: 12.68%;
+    right: 0%;
+    top: 10.81%;
+    bottom: 41.34%;
+}
+
+.item-image{
+    position: absolute;
+    left: 0%;
+    right: 54.04%;
+    top: 0%;
+    bottom: 0%;
+
+    border-radius: 4px;
+}
+
+.item-details{
+    position: absolute;
+    left: 50.55%;
+    right: 0%;
+    top: 2.4%;
+    bottom: 2.4%;
+}
+
+.item-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    left: 50.55%;
+    right: 31.16%;
+    top: 2.4%;
+    bottom: 85.2%;
+}
+
+.item-name{
+    width: 199px;
+    height: 62px;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.item-price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    left: 50.55%;
+    right: 42.28%;
+    top: 14.8%;
+    bottom: 79%;
+}
+
+.item-price{
+    width: 78px;
+    height: 31px;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.line-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 8px;
+
+    position: absolute;
+    left: 50.55%;
+    right: 1.38%;
+    top: 21%;
+    bottom: 75.4%;
+}
+
+.line{
+    width: 523px;
+    height: 2px;
+
+    background: rgba(0, 0, 0, 0.2);
+
+    border-radius: 2px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.size-container{
+    position: absolute;
+    left: 50.55%;
+    right: 19.3%;
+    top: 28.6%;
+    bottom: 53.4%;
+}
+
+.size-text-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    left: 50.55%;
+    right: 45.31%;
+    top: 28.6%;
+    bottom: 65.2%;
+}
+
+.size-text{
+    width: 45px;
+    height: 31px;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+
+    color:#000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.size-xs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 50.55%;
+    right: 44.49%;
+    top: 37.8%;
+    bottom: 53.4%;
+    
+    background: #25AFB8;
+    border-radius: 8px;
+}
+
+.size-xs{
+    width: 22px;
+    height: 22px;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    
+    color: #FFFFFF;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.size-s-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+
+    position: absolute;
+    left: 55.97%;
+    right: 40.07%;
+    top: 37.8%;
+    bottom: 53.4%;
+
+    background: #25AFB8;
+    border-radius: 8px;
+}
+
+.size-s{
+    width: 11px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.size-m-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 60.39%;
+    right: 35.29%;
+    top: 37.8%;
+    bottom: 53.4%;
+    
+    background: #25AFB8;
+    border-radius: 8px;    
+}
+
+.size-m{
+    width: 15px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.size-l-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 65.17%;
+    right: 30.97%;
+    top: 37.8%;
+    bottom: 53.4%;
+    
+    background: #25AFB8;
+    border-radius: 8px;
+}
+
+.size-l{
+    width: 10px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.size-xl-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 69.49%;
+    right: 25.64%;
+    top: 37.8%;
+    bottom: 53.4%;
+    
+    background: #25AFB8;
+    border-radius: 8px;
+}
+
+.size-xl{
+    width: 21px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.size-2xl-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 74.82%;
+    right: 19.3%;
+    top: 37.8%;
+    bottom: 53.4%;
+    
+    background: #25AFB8;
+    border-radius: 8px;
+}
+
+.size-2xl{
+    width: 32px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.quantity-container{
+    position: absolute;
+    left: 50.55%;
+    right: 38.42%;
+    top: 50.6%;
+    bottom: 41.4%;
+}
+
+.quantity-minus-container{
+    position: absolute;
+    left: 50.55%;
+    right: 45.77%;
+    top: 50.6%;
+    bottom: 41.4%;    
+}
+
+.quantity-minus-container-border{
+    position: absolute;
+    left: 50.55%;
+    right: 45.77%;
+    top: 50.6%;
+    bottom: 41.4%;
+    
+    background: #E9ECEF;
+    border: 1px solid #000000;
+}
+
+.quanity-minus{
+    position: absolute;
+    left: 51.29%;
+    right: 46.42%;
+    top: 52%;
+    bottom: 43%;
+}
+
+.quanity-number-container-container{
+    position: absolute;
+    left: 54.23%;
+    right: 42.1%;
+    top: 50.6%;
+    bottom: 41.4%;
+}
+
+.quantity-number-container-container-border{
+    position: absolute;
+    left: 54.23%;
+    right: 42.1%;
+    top: 50.6%;
+    bottom: 41.4%;
+    
+    border: 1px solid #000000;
+}
+
+.quantity-number-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 55.33%;
+    right: 43.29%;
+    top: 51.4%;
+    bottom: 42.4%;
+}
+
+.quantity-number{
+    width: 15px;
+    height: 31px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+ 
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.quantity-plus-container{
+    left: 57.9%;
+    right: 38.42%;
+    top: 50.6%;
+    bottom: 41.4%;
+}
+
+.quantity-plus-container-border{
+    position: absolute;
+    left: 57.9%;
+    right: 38.42%;
+    top: 50.6%;
+    bottom: 41.4%;
+    
+    background: #E9ECEF;
+    border: 1px solid #000000;
+}
+
+.quantity-plus{
+    position: absolute;
+    left: 58.55%;
+    right: 39.15%;
+    top: 52%;
+    bottom: 43%;    
+}
+
+.add-to-cart-container{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 50.55%;
+    right: 1.38%;
+    top: 66.2%;
+    bottom: 25%;
+    
+    border: 2px solid #F84F85;
+    border-radius: 8px;
+}
+
+.add-to-cart{
+    width: 93px;
+    height: 22px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+
+    color: #F84F85;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.item-info-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 50.55%;
+    right: 0%;
+    top: 79%;
+    bottom: 2.4%;
+}
+
+.item-info{
+    width: 538px;
+    height: 93px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.related-items-container{
+    position: absolute;
+    left: 12.68%;
+    right: 0%;
+    top: 65.84%;
+    bottom: 0%;
+}
+
+.related-items-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 0%;
+    right: 86.12%;
+    top: 0%;
+    bottom: 91.32%;
+}
+
+.related-items-title{
+    width: 151px;
+    height: 31px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.related-items-row{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 12.61%;
+    bottom: 0%;
+}
+
+.related-items-1-container{
+    position: absolute;
+    left: 0%;
+    right: 76.36%;
+    top: 12.61%;
+    bottom: 0%;    
+}
+
+.related-items-1-image{
+    position: absolute;
+    left: 0%;
+    right: 76.36%;
+    top: 12.61%;
+    bottom: 15.36%;
+
+    border-radius: 4px;
+}
+
+.related-items-1-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 8.09%;
+    right: 84.28%;
+    top: 87.39%;
+    bottom: 5.32%;
+}
+
+.related-items-1-name{
+    width: 83px;
+    height: 26px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.related-items-1-price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 9.65%;
+    right: 85.85%;
+    top: 94.68%;
+    bottom: 0%;
+}
+
+.related-items-1-price{
+    width: 49px;
+    height: 19px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.related-items-2-container{
+    position: absolute;
+    left: 25.45%;
+    right: 50.91%;
+    top: 12.61%;
+    bottom: 0.28%;
+}
+
+.related-items-2-image{
+    position: absolute;
+    left: 25.45%;
+    right: 50.91%;
+    top: 12.61%;
+    bottom: 15.36%;
+
+    border-radius: 4px;
+}
+
+.related-items-2-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 35.49%;
+    right: 60.74%;
+    top: 87.52%;
+    bottom: 5.2%;    
+}
+
+.related-items-2-name{
+    width: 41px;
+    height: 26px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.related-items-2-price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 35.2%;
+    right: 60.29%;
+    top: 94.4%;
+    bottom: 0.28%;
+}
+
+.related-items-2-price{
+    width: 49px;
+    height: 19px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.related-items-3-container{
+    position: absolute;
+    left: 50.91%;
+    right: 25.45%;
+    top: 12.61%;
+    bottom: 0.28%;    
+}
+
+.related-items-3-image{
+    position: absolute;
+    left: 50.91%;
+    right: 25.45%;
+    top: 12.61%;
+    bottom: 15.36%;
+
+    border-radius: 4px;
+}
+
+.related-items-3-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 59.85%;
+    right: 34.17%;
+    top: 87.52%;
+    bottom: 5.2%;    
+}
+
+.related-items-3-name{
+    width: 65px;
+    height: 26px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.related-items-3-price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 60.48%;
+    right: 35.02%;
+    top: 94.4%;
+    bottom: 0.28%;
+}
+
+.related-items-3-price{
+    width: 49px;
+    height: 19px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.related-items-4-container{
+    position: absolute;
+    left: 76.36%;
+    right: 0%;
+    top: 12.61%;
+    bottom: 0%;
+}
+
+.related-items-4-image{
+    position: absolute;
+    left: 76.36%;
+    right: 0%;
+    top: 12.61%;
+    bottom: 15.36%;
+
+    border-radius: 4px;
+}
+
+.related-items-4-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 84.29%;
+    right: 7.44%;
+    top: 87.52%;
+    bottom: 5.2%;
+}
+
+.related-items-4-name{
+    width: 90px;
+    height: 26px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.related-items-4-price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 85.85%;
+    right: 9.65%;
+    top: 94.68%;
+    bottom: 0%;
+}
+
+.related-items-4-price{
+    width: 49px;
+    height: 19px;
+    
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+
+    text-align: center;
+    
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
