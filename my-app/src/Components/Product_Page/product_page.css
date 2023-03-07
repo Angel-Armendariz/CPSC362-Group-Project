@@ -7,7 +7,7 @@
 }
 
 .path-container{
-    position: absolute;
+    position: relative;
     left: 0%;
     right: 79.29%;
     top: 0%;
@@ -172,12 +172,12 @@
     right: 54.04%;
     top: 0%;
     bottom: 0%;
-
     border-radius: 4px;
+
 }
 
 .item-details{
-    position: absolute;
+    position: flex;
     left: 50.55%;
     right: 0%;
     top: 2.4%;
@@ -276,7 +276,7 @@
 }
 
 .size-container{
-    position: absolute;
+    position: flex;
     left: 50.55%;
     right: 19.3%;
     top: 28.6%;
