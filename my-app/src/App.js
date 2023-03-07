@@ -1,18 +1,18 @@
 import React from 'react';
-import { Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Navbar from './Components/Navbar';
+import { Routes, Route, BrowserRouter} from 'react-router-dom';
+import Header from './Components/Header/Header';
+import Lifestyle from './pages/Accessories/Lifestyle';
+import All from './pages/All';
 
 function App() {
     return (
-        <>
-            <Navbar />
+        <BrowserRouter>
+            <Header />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/About" element={<About />} />
+                <Route path="/" element={<Lifestyle />} />
+                <Route path='/All' element={<All />} />
             </Routes>
-        </>
+        </BrowserRouter>
     );
     }
 
