@@ -12,16 +12,6 @@ body{
   position: relative;
 }
 
-.head-text {
-  text-align: center;
-}
-
-.head-text h1 {
-  margin: 0;
-  padding-left: 10px;
-  font-size: 1rem;
-}
-
 .header-logo {
   width: 150px;
   min-width: 100px;

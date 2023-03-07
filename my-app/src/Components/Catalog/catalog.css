@@ -24,13 +24,22 @@
   
   .catalog-item {
     width: 100%;
+    transition: transform 0.2s ease-in-out;
   }
   
+  .catalog-item:hover {
+    transform: scale(1.1);
+  }
+
   .catalog-item-name {
-    font-size: 1.5em;
     text-align: center;
     margin-top: 1em;
   }
+
+  .catalog-item-price{
+    text-align: center;
+  }
+
 
    /* mobile View*/
   @media screen and (max-width: 768px) {

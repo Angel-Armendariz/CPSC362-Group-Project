@@ -8,13 +8,16 @@ const Catalog = ({ items, header }) => {
       <div className="item-list">
         {items.map(item => (
           <div className='catalog-item-container' key={item.id} >
-            <img className="catalog-item" src={item.image} alt={item.title} />
+            <a href={item.path}>
+              <img className="catalog-item" src={item.image} alt={item.title} />
+            </a>
             <h2 className='catalog-item-name'>{item.title}</h2>
+            <h3 className='catalog-item-price'>{item.price}</h3>
           </div>
         ))}
       </div>
     </div>
   );
 };
-
 export default Catalog;
+//add 2 new variables to the Catalog function for price and path for button

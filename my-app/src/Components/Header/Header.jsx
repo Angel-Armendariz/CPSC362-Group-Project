@@ -13,9 +13,6 @@ const Header = () => {
   return (
     <>
       <div className='header'>
-        <form className='head-text'>
-          <h1>Official Site For Titan Radio Merch</h1>
-        </form>
         <Link to='/'>
           <img className='header-logo' src={logo} alt='example' />
         </Link>
