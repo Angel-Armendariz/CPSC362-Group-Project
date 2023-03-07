@@ -43,31 +43,31 @@ const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) 
                     /* Needs an if-else for one size items */
                     <div className = "size-container">
                         <div className = "size-text-container">
-                            <h2 className = "size-text">"Size"</h2>
+                            <h2 className = "size-text">Size</h2>
                         </div>
 
                         <div className = "size-xs-container">
-                            <h3 className = "size-xs">"XS"</h3>
+                            <h3 className = "size-xs">XS</h3>
                         </div>
 
                         <div className = "size-s-container">
-                            <h3 className = "size-s">"S"</h3>
+                            <h3 className = "size-s">S</h3>
                         </div>
 
                         <div className = "size-m-container">
-                            <h3 className = "size-m">"M"</h3>
+                            <h3 className = "size-m">M</h3>
                         </div>
     
                         <div className = "size-l-container">
-                            <h3 className = "size-l">"L"</h3>
+                            <h3 className = "size-l">L</h3>
                         </div>
 
                         <div className = "size-xl-container">
-                            <h3 className = "size-xl">"XL"</h3>
+                            <h3 className = "size-xl">XL</h3>
                         </div>
 
                         <div className = "size-2xl-container">
-                            <h3 className = "size-2xl">"2XL"</h3>
+                            <h3 className = "size-2xl">2XL</h3>
                         </div>
                     </div>
 
@@ -80,7 +80,7 @@ const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) 
                         /*Needs to be respond based on whether the minus or plus button is pressed*/
                         <div className = "quantity-number-container-container">
                             <div className = "quantity-number-container">
-                                <h3 className = "quantity-number">"1"</h3>
+                                <h3 className = "quantity-number">1</h3>
                             </div>
                             <div className = "quantity-number-container-container-border"></div>
                         </div>
@@ -92,7 +92,7 @@ const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) 
                     </div>
 
                     <div className = "add-to-cart-container">
-                        <h2 className = "add-to-cart">"Add to Cart"</h2>
+                        <h2 className = "add-to-cart">Add to Cart</h2>
                     </div>
 
                     <div className = "item-info-container">
@@ -103,7 +103,7 @@ const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) 
 
             <div className = "related-items-container">
                 <div className = "related-items-title-container">
-                    <h2 className = "related-items-title">"Related Items"</h2>
+                    <h2 className = "related-items-title">Related Items</h2>
                 </div>
 
                 <div className = "related-items-row">
