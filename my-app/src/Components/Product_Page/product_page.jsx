@@ -25,7 +25,7 @@ const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) 
             </div>
 
             <div className = "item-container">
-                <img className = "item-image" src = {item.img} alt = {item.name} />
+                <img className = "item-image" src = {item.image} alt = {item.name} />
 
                 <div className = "item-details">
                     <div className = "item-name-container">
@@ -74,7 +74,6 @@ const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) 
                     <div className = "quantity-container">
                         <div className = "quantity-minus-container">
                             <img className = "quantity-minus" src = {minus} alt = "minus" />
-                            <div className = "quantity-minus-container-border"></div>
                         </div>
 
                         /*Needs to be respond based on whether the minus or plus button is pressed*/
