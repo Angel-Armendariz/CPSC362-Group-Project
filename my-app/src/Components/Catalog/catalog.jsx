@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './catalog.css';
 
 const Catalog = ({ items, header }) => {
@@ -13,11 +13,41 @@ const Catalog = ({ items, header }) => {
             </a>
             <h2 className='catalog-item-name'>{item.title}</h2>
             <h3 className='catalog-item-price'>{item.price}</h3>
+            <CartItemButton />
           </div>
         ))}
       </div>
     </div>
   );
 };
+
+const CartItemButton = () => {
+  const [quantity, setQuantity] = useState(0);
+
+  const incrementQuantity = () => {
+    setQuantity(quantity + 1);
+  };
+
+  const decrementQuantity = () => {
+    if (quantity > 0) {
+      setQuantity(quantity - 1);
+    }
+  };
+
+  return (
+    <div className="catalog-item-button">
+      {quantity === 0 ? (
+        <button onClick={incrementQuantity}>Add to Cart</button>
+      ) : (
+        <>
+          <button onClick={decrementQuantity}>-</button>
+          <span>{quantity}</span>
+          <button onClick={incrementQuantity}>+</button>
+        </>
+      )}
+    </div>
+  );
+};
+
+
 export default Catalog;
-//add 2 new variables to the Catalog function for price and path for button
