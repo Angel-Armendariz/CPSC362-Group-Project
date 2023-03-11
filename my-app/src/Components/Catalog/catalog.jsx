@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './catalog.css';
-
+import '../../pages/Cart/Cart.js';
 const Catalog = ({ items, header }) => {
   return (
     <div className="catalog-container">
@@ -51,3 +51,5 @@ const CartItemButton = () => {
 
 
 export default Catalog;
+
+
