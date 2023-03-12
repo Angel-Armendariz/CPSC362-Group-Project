@@ -24,11 +24,11 @@ const PRODUCTS =  [ {
   path: "/electronics",
 },
 ];
-<PRODUCTS PRODUCTS={PRODUCTS} />
 function All() {
   return (
     <div>
-      <Catalog PRODUCTS={PRODUCTS} header="All" />
+      <h1 className="pageName">All</h1>
+      <Catalog PRODUCTS={PRODUCTS} />
     </div>
   );
 };

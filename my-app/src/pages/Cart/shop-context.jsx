@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import { PRODUCTS } from "./Products";
 export const ShopContext = createContext(null);
 
@@ -24,16 +24,16 @@ export const ShopContextProvider = (props) => {
     return totalAmount;
   };
 
-  const addToCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
+  const addToCart = (itemid) => {
+    setCartItems((prev) => ({ ...prev, [itemid]: prev[itemid] + 1 }));
   };
 
-  const removeFromCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+  const removeFromCart = (itemid) => {
+    setCartItems((prev) => ({ ...prev, [itemid]: prev[itemid] - 1 }));
   };
 
-  const updateCartItemCount = (newAmount, itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: newAmount }));
+  const updateCartItemCount = (newAmount, itemid) => {
+    setCartItems((prev) => ({ ...prev, [itemid]: newAmount }));
   };
 
   const checkout = () => {

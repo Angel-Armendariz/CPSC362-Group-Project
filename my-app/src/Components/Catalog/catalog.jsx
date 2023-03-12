@@ -3,13 +3,9 @@ import { PRODUCTS } from "../../pages/Cart/Products";
 import { Product } from "../../pages/Cart/product";
 import './catalog.css';
 
-export const Catalog = ({PRODUCTS},{header}) => {
+export const Catalog = ({PRODUCTS}) => {
   return (
     <div>
-      <div>
-        <h1 className="pageName">{header}</h1>
-      </div>
-
       <div className="item-list">
         {PRODUCTS.map((product) => (
           <Product data={product} />

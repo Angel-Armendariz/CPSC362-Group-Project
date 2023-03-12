@@ -38,11 +38,11 @@ const PRODUCTS = [
     path:'/All'
   },
 ];
-<PRODUCTS PRODUCTS={PRODUCTS} />
 const Lifestyle = () => {
   return (
     <div>
-      <Catalog PRODUCTS={PRODUCTS} header="Lifestyle" />
+      <h1 className='pageName'>Lifestyle</h1>
+      <Catalog PRODUCTS={PRODUCTS} />
     </div>
   );
 };

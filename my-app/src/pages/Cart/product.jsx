@@ -11,7 +11,7 @@ export const Product = (props) => {
   return (
     <div className="catalog-item-container">
     <a href={path}>
-      <img className="catalog-item" src={productImage} />
+      <img className="catalog-item" src={productImage} alt={productName} />
     </a>
       <div>
         <p className="catalog-item-name">
@@ -30,7 +30,7 @@ export const Products = () => {
   return (
     <div>
       {Products.map((product) => (
-        <Product key={product.id} data={product} />
+        <Product id={product.id} data={product} />
       ))}
     </div>
   );
