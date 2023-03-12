@@ -1,9 +1,9 @@
 import React from "react";
-import { PRODUCTS } from "../../pages/Cart/LifestyleProducts";
+import { PRODUCTS } from "../../pages/Cart/Products";
 import { Product } from "../../pages/Cart/product";
 import './catalog.css';
 
-export const Catalog = ({header}) => {
+export const Catalog = ({PRODUCTS},{header}) => {
   return (
     <div>
       <div>
