@@ -3,14 +3,16 @@ import { ShopContext } from "./shop-context";
 import '../../Components/Catalog/catalog.css';
 
 export const Product = (props) => {
-  const { id, productName, price, productImage } = props.data;
+  const { id, productName, price, productImage, path } = props.data;
   const { addToCart, cartItems } = useContext(ShopContext);
 
   const cartItemCount = cartItems[id];
 
   return (
     <div className="catalog-item-container">
+    <a href={path}>
       <img className="catalog-item" src={productImage} />
+    </a>
       <div>
         <p className="catalog-item-name">
           <b>{productName}</b>

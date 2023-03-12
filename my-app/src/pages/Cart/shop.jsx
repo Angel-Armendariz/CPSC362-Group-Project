@@ -1,5 +1,5 @@
 import React from "react";
-import { PRODUCTS } from "./products";
+import { PRODUCTS } from "./LifestyleProducts";
 import { Product } from "./product";
 
 export const Shop = () => {
