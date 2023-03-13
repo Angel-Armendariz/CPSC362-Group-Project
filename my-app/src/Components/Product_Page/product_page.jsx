@@ -1,7 +1,5 @@
 import React from "react";
 import "./product_page.css";
-import minus from "../../assets/minus.png";
-import plus from "../../assets/plus.png";
 
 const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) => {
     return (
@@ -40,7 +38,7 @@ const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) 
                         <div className = "line"></div>
                     </div>
 
-                    /* Needs an if-else for one size items */
+                    /* Needs if-else for one-size*/
                     <div className = "size-container">
                         <div className = "size-text-container">
                             <h2 className = "size-text">Size</h2>
@@ -71,22 +69,16 @@ const Product_Page = ({path, item, related_1, related_2, related_3, related_4}) 
                         </div>
                     </div>
 
+                    /*Needs to be responsize based on the buttons*/
                     <div className = "quantity-container">
-                        <div className = "quantity-minus-container">
-                            <img className = "quantity-minus" src = {minus} alt = "minus" />
+                        <div className = "quantity-minus">
+                        </div>
+                        
+                        <div className = "quantity-number-container">
+                            <h3 className = "quantity-number">1</h3>
                         </div>
 
-                        /*Needs to be respond based on whether the minus or plus button is pressed*/
-                        <div className = "quantity-number-container-container">
-                            <div className = "quantity-number-container">
-                                <h3 className = "quantity-number">1</h3>
-                            </div>
-                            <div className = "quantity-number-container-container-border"></div>
-                        </div>
-
-                        <div className = "quantity-plus-container">
-                            <img className = "quantity-plus" src = {plus} alt = "plus" />
-                            <div className = "quantity-plus-container-border"></div>
+                        <div className = "quantity-plus">
                         </div>
                     </div>
 
